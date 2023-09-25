@@ -24,6 +24,8 @@ body {
 
 .icon {
   font-size: 4rem;
+  order:-1;
+  align-self: center;
 }
 
 .emojis{
@@ -37,12 +39,8 @@ body {
   flex-direction: column;
 }
 
-.icon{
-  order:-1;
-  align-self: center;
-}
-
-
 a{
   margin-top: auto;
+  justify-content: flex-end;
+  
 }
